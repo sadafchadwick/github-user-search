@@ -82,6 +82,7 @@ body {
     font-weight: 400;
     line-height: 25px; 
     outline: none;
+    min-width: 195px;
 }
 
 .dark-mode .search-input ::placeholder{
@@ -261,7 +262,7 @@ body {
     line-height: 25px;
     height: 25px;
     outline: none;
-    max-width: 184px;
+    min-width: 195px;
 }
 
 .search-input ::placeholder{
