@@ -1,5 +1,5 @@
 # GitHub user search app
-(https://sadafchadwick.github.io/github-user-search/)
+https://sadafchadwick.github.io/github-user-search/
 ### Built with
 
 - Semantic HTML5 markup
