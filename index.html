@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Dark/Light Mode Toggle</title>
+</head>
+
+<body class="light-mode">
+
+  <div class="wrapper">
+    <div class="toggle-container">
+      <h3 class="title">devfinder</h3>
+      <div id= "toggle-switch"class="toggle-switch">
+        <span class="toggle-text">
+          <span style="letter-spacing: 2.5px;">DARK</span>
+        </span>
+        <div id="mode-toggle" class="mode-toggle">
+          <img src=".\assets\icon-moon.svg"></img>
+        </div>
+      </div>
+    </div>
+
+    <form>
+      <div class="search-bar">
+        <img class="eyeglass" src=".\assets\icon-search.svg"></img>
+        <input class="search-input" type="text" placeholder="Search GitHub username...">
+        <p class="user-not-found-message"></p>
+        </input>
+        <button type="submit" class="search-btn">Search </button>
+
+      </div>
+    </form>
+
+
+    <div class="profile-box">
+
+      <div class="profile-basic">
+        <div class="profile-image">
+          <img class="profile-photo"></img>
+        </div>
+        <div class="profile-info">
+          <h3 class="profile-info-display-name"></h3>
+          <h6 class="profile-info-username"></h6>
+          <h6 class="profile-info-date"></h6>
+        </div>
+      </div>
+
+      <div class="profile-bio">
+        <p></p>
+      </div>
+
+      <div class="stats-box">
+        <div>Repos<br></div>
+        <div>Followers<br></div>
+        <div>Following<br></div>
+      </div>
+
+      <div class="profile-links">
+        <div<img src=".\assets\icon-location.svg"></img></div>
+        <div<img src=".\assets\icon-website.svg"></img></div>
+        <div<img src=".\assets\icon-twitter.svg"></img></div>
+        <div<img src=".\assets\icon-company.svg"></img></div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
